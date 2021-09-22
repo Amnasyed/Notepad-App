@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/Notepad/app/src/main/res/drawable/background.xml" value="0.15763888888888888" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/Notepad/app/src/main/res/layout/activity_main.xml" value="0.153125" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/Notepad/app/src/main/res/layout/activity_notepad.xml" value="0.153125" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/Notepad/app/src/main/res/layout/activity_recycle_bin.xml" value="0.13" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/Notepad/app/src/main/res/layout/activity_theme.xml" value="0.153125" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/Notepad/app/src/main/res/layout/deletedialogbox.xml" value="0.12" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/Notepad/app/src/main/res/layout/deletelistitem.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/Notepad/app/src/main/res/layout/listitem.xml" value="0.18" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/Notepad/app/src/main/res/layout/main_toolbar.xml" value="0.12" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/Notepad/app/src/main/res/layout/nav_header.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/Notepad/app/src/main/res/layout/themedialog.xml" value="0.14" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/Notepad/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/Notepad/app/src/main/res/menu/popup_menu_notepad.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

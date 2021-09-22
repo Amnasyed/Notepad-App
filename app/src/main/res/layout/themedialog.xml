@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/_10sdp">
+        <TextView
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:id="@+id/red"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:background="@color/red_colorPrimaryDark"
+            android:layout_marginRight="@dimen/_5sdp"
+            />
+
+        <TextView
+            android:id="@+id/yellow"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:background="@color/red_colorAccent"
+            android:layout_marginRight="@dimen/_5sdp"
+            />
+
+        <TextView
+            android:id="@+id/lightgreen"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:background="#C5F66A"
+            />
+        <TextView
+            android:id="@+id/whatsappColorApp"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:background="@color/teal_700"
+            />
+        <TextView
+            android:id="@+id/orange"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:background="#F67F1E"
+            android:layout_marginRight="@dimen/_5sdp"
+            />
+        <TextView
+            android:id="@+id/darkgreen"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:background="#2F6509"
+            android:layout_marginRight="@dimen/_5sdp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/_10sdp">
+        <TextView
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:id="@+id/blue"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:background="@color/blue_colorPrimary"
+            android:layout_marginRight="@dimen/_5sdp"
+            />
+
+        <TextView
+            android:id="@+id/brown"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:background="@color/brown_colorPrimary"
+            android:layout_marginRight="@dimen/_5sdp"
+            />
+
+        <TextView
+            android:id="@+id/pink"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:background="#FB80B6"
+            />
+        <TextView
+            android:id="@+id/purple"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:background="#B57815"
+            />
+        <TextView
+            android:id="@+id/golden"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:background="#F67F1E"
+            android:layout_marginRight="@dimen/_5sdp"
+            />
+        <TextView
+            android:id="@+id/grey"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:background="@color/grey_colorPrimary"
+            android:layout_marginRight="@dimen/_5sdp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

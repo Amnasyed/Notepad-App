@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/skyblue_colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/design_default_color_primary_dark</item>
+        <item name="colorAccent">@color/skyblue_colorPrimary</item>
+    </style>
+
+    <style name="DarkTheme" parent="Theme.AppCompat.DayNight">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme_red" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/red_colorPrimary</item>
+        <item name="colorPrimaryDark">#D62525</item>
+        <item name="colorAccent">#E03131</item>
+        <item name="colorPrimaryVariant">#ED2E2E</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#E82517</item>
+        <item name="colorSecondaryVariant">#EA1C1C</item>
+        <item name="colorOnSecondary">#F42E2E</item>
+    </style>
+
+    <style name="AppTheme_orange" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#F3410B</item>
+        <item name="colorPrimaryDark">#F14106</item>
+        <item name="colorAccent">#EF3F09</item>
+    </style>
+
+    <style name="AppTheme_darkgreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#1E3A09</item>
+        <item name="colorPrimaryDark">#2C4A16</item>
+        <item name="colorAccent">#223C10</item>
+    </style>
+</resources>

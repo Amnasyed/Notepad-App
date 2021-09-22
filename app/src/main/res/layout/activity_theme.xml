@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Theme"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/_10sdp">
+        <TextView
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:id="@+id/red1"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:background="@color/red_colorPrimaryDark"
+            android:layout_marginRight="@dimen/_5sdp"
+            />
+
+        <TextView
+            android:id="@+id/yellow1"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:background="@color/red_colorAccent"
+            android:layout_marginRight="@dimen/_5sdp"
+            />
+
+        <TextView
+            android:id="@+id/lightgreen1"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:background="#C5F66A"
+            />
+        <TextView
+            android:id="@+id/whatsappColorApp1"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:background="@color/teal_700"
+            />
+        <TextView
+            android:id="@+id/orange1"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:background="#F67F1E"
+            android:layout_marginRight="@dimen/_5sdp"
+            />
+        <TextView
+            android:id="@+id/darkgreen1"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:background="#2F6509"
+            android:layout_marginRight="@dimen/_5sdp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dark theme"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/black"
+            android:layout_marginRight="@dimen/_100sdp"
+            />
+        <Switch
+            android:id="@+id/switchDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_30sdp"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cancelTheme"
+        android:text="Cancel"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_30sdp"
+        />
+
+</LinearLayout>
